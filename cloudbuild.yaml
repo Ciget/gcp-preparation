@@ -1,4 +1,4 @@
 steps:
-  - name: 'gcr.io/cloud-builders/docker'
-    args: ['build', '-t', 'gcr.io/my-project-id/myimage', '.']
+  - name: '-----Build docker image------'
+    args: ['build', '-t', 'gcr.io/	sincere-scheme-339808/demoapp', '.']
 logsBucket: "gs://cs-build-log"
